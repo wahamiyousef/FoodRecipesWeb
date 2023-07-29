@@ -3,3 +3,21 @@ body {
     background-color: whitesmoke;
 
 }
+
+.tab {
+    overflow: hidden;
+    border: 1px;
+    background-color: antiquewhite;
+}
+.tab button {
+    background-color: antiquewhite;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: rgb(248, 187, 107);
+}
