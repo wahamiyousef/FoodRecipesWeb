@@ -35,6 +35,10 @@ nav {
     background-color: #fff;
 }
 
+.rcpTab {
+    list-style: square;
+    display: none;
+}
 
 ul {
     margin-left: 70px;
