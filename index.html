@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shotcut icon" type="image/png" href="images/favicon.png">
-    <title>Recipes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <title>Recipe</title>
 </head>
 <body>
-    <div>
-        <nav>
-            
-            <ul>
-                <li><img src="images/eggLogo.png" width="60px" height="60px"></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="recipe.html">Recipes</a></li>
-            </ul>
-        </nav>
-        <div class="tab">
-            <button class="tablinks" onclick="openRecipe(event, 'Poutine')">Poutine</button>
-            <button class="tablinks" onclick="openRecipe(event, 'Pizza')">Pizza</button>
-            <button class="tablinks" onclick="openRecipe(event, 'Pie')">Pie</button>
+    <ul>
+        <li data-tab-target="#PBB-Smoth">PB & Banana Smoothie</li>
+        <li data-tab-target="#Smoth2">Smoothie 2</li>
+        <li data-tab-target="#Smoth3">Smoothie 3</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="PBB-Smoth" data-tab-content class="active">
+            <h1>Peanut Butter & Banana Smoothie</h1>
+            <p>SSMOOTHIE</p>
         </div>
-        
-
-
+        <div id="Smoth2" data-tab-content>
+            <h1>Smoothie 2</h1>
+            <p>SSMOOTHIE</p>
+        </div>
+        <div id="Smoth3" data-tab-content>
+            <h1>Smoothie 3</h1>
+            <p>SSMOOTHIE</p>
+        </div>
     </div>
-    
 </body>
 </html>
