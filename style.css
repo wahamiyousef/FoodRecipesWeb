@@ -33,4 +33,15 @@ body {
 .tab-rcp {
     float: left;
     text-decoration: none;
+    list-style-type: none;
+    background-color: gainsboro;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 500px;
+    
+}
+.tab-rcp h2 {
+    padding-bottom: 25px;
+    padding-left: 22%;
 }
